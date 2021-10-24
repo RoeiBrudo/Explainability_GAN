@@ -102,15 +102,23 @@ Another important insight so notice is that when the pixel we queried is silent,
 \subsubsection{Disentanglement representation}
 
 Note that the InfoGAN generate different digits just by adjusting the input categorical code, but without any other enforcement as in CGAN (the embedding layer). The model is not aware to the different classes in the data, but still tend to do the 'right' separation in latent space, just by minimizing the information from that latent code to the images the generator produces. in the original paper it is mentioned that this classification by the categorical codes gets up to 95\% accuracy.
+The continuous codes seem to have less effect in my implementation, though that in the paper the effect of both codes is clear and interpretable. 
+
 
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=1]{gan_d1}
-\caption{Discovered direction of GAN on MNIST}
+\includegraphics[scale=1]{info_all}
+\caption{Random sample from InfoGAN}
 \label{fig:x cubed graph}
 \end{figure}
 
+\begin{figure}[h]
+\centering
+\includegraphics[scale=1]{info_single}
+\caption{Same noise seed with different codes. Note how the codes define the digit, though the model wasn't train with any labels}
+\label{fig:x cubed graph}
+\end{figure}
 
 
 
@@ -125,14 +133,14 @@ Note that the InfoGAN generate different digits just by adjusting the input cate
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.6]{Scrabble_d1}
+\includegraphics[scale=0.8]{Scrabble_d1}
 \caption{Detected direction in ScrabbleGAN that effect the width of the writing}
 \label{fig:x cubed graph}
 \end{figure}
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.6]{Scrabble_d2}
+\includegraphics[scale=0.8]{Scrabble_d2}
 \caption{Detected direction in ScrabbleGAN that effect the cursivity of the writing}
 \label{fig:x cubed graph}
 \end{figure}

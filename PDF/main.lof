@@ -54,13 +54,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6.7}{\ignorespaces attention maps of the generator model\relax }}{22}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Discovered direction of GAN on MNIST\relax }}{22}{figure.caption.31}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Random sample from InfoGAN\relax }}{22}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Detected direction in ScrabbleGAN that effect the width of the writing\relax }}{23}{figure.caption.32}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Same noise seed with different codes. Note how the codes define the digit, though the model wasn't train with any labels\relax }}{23}{figure.caption.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Detected direction in ScrabbleGAN that effect the cursivity of the writing\relax }}{23}{figure.caption.33}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Detected direction in ScrabbleGAN that effect the width of the writing\relax }}{23}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.11}{\ignorespaces ScrabbleGAN attention maps\relax }}{24}{figure.caption.34}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Detected direction in ScrabbleGAN that effect the cursivity of the writing\relax }}{24}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.12}{\ignorespaces ScrabbleGAN attention maps\relax }}{24}{figure.caption.35}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

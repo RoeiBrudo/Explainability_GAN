@@ -1,18 +1,33 @@
-\section{More relevant material}
-The remaining appendices can contain relevant material which is not essential to be included in the main body of the dissertation, but which may be useful to support your dissertation.  
+\section{Some implementation notes}
+All of the implementation can be found here:
 
 
-\begin{itemize}
-\item	Examples of relevant material might include:
-\item	Example questionnaires
-\item	More detailed designs
-\item	Relevant results which didn’t fit in the main body
-\end{itemize}
-Examples of material that should not go into an appendix:
-\begin{itemize}
-\item	A dump of all your code
-\item	Transcripts of all your interviews
-\end{itemize}
-Remember, that the appendices should be there in case the reader wants to refer to them.  They will not be read as part of the dissertation story, so do not just use them to put essential material because you ran out of room.  Also, do not be tempted to pad out your dissertation to the full 60 pages just by adding lots of unnecessary material to the appendices.
+$ https://github.com/RoeiBrudo/Explainability_GAN $
 
-Any supplementary materials can be uploaded electronically with your submission.
+the data could be found here:
+
+$ https://drive.google.com/file/d/1rBQXD5mZv4ed1--XsmMig36oh0-70Kp2/view?usp=sharing $
+
+All that is needed is to extract the data folder to the explainabilityMain folder, and to run $ main.py $ script.
+
+The script arguments:
+
+\begin{center}
+\begin{tabular}{ c c }
+ function & GAN or CGAN or InfoGAN  \\ 
+ data & MNIST or IAM   \\  
+ action & train or infer \\
+ explore latent & flag \\
+ explore attention  & flag   
+   
+\end{tabular}
+\end{center}
+
+
+The only exception is the discovery of latent space direction on ScrabbleGAN, which gave the best results when used in an off the shelve solution by Nikolai10:
+
+$ https://github.com/Nikolai10/scrabble-gan $
+
+$ https://towardsdatascience.com/scrabblegan-adversarial-generation-of-handwritten-text-images-628f8edcfeed $
+
+The solution for that algorithm is ScrabbleDirections folder. all is needed it to train the model first $ main.py $ and then run the $ run_explorer.py $  script.

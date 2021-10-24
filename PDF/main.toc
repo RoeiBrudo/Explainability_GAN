@@ -95,3 +95,7 @@
 \contentsline {section}{\numberline {A.1}Reflection on Project}{27}{section.A.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.2}Personal Reflection}{27}{section.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Appendices}{28}{appendix.B}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Some implementation notes}{28}{section.B.1}%
