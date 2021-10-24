@@ -1,0 +1,67 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Right:Additive attention head Left:Scaled dot-product attention head\relax }}{8}{figure.caption.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Example of features maps produced by exploring the attention mechanisms. Right: maps from additive attention in machine translation. Left: maps from two different scaled dot-product attention heads. Its clear hat parts of the input effects every output component.\relax }}{8}{figure.caption.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces GAN model scheme \cite {12}\relax }}{9}{figure.caption.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces BiGAN model scheme \cite {12}\relax }}{9}{figure.caption.6}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces MNIST random sample\relax }}{11}{figure.caption.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces IAM random sample\relax }}{12}{figure.caption.8}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces groups of explanations \cite {13}\relax }}{13}{figure.caption.9}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces ScrabbleGAN structure\relax }}{14}{figure.caption.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces unsupervised discovery of latent space direction scheme as proposed in the original paper\relax }}{15}{figure.caption.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Modified R network for MNIST\relax }}{16}{figure.caption.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Modified R network for SrabbleGAN\relax }}{16}{figure.caption.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Self Attention maps as presented in SAGAN paper\relax }}{16}{figure.caption.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Self Attention layer as proposed in SAGAN paper\relax }}{17}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces InfoGAN structure \cite {14}\relax }}{17}{figure.caption.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Generated MNIST data by GAN\relax }}{18}{figure.caption.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Generated MNIST data by CGAN\relax }}{18}{figure.caption.22}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Generated MNIST data by CGAN, each row is generated from the same seed in latent space\relax }}{19}{figure.caption.24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces unconditional (first row) vs conditional sampling (second row) in Graves work on IAM online Data\relax }}{19}{figure.caption.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Discovered direction of GAN on MNIST\relax }}{20}{figure.caption.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Discovered direction of CGAN on MNIST\relax }}{21}{figure.caption.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces attention maps of the generator model\relax }}{22}{figure.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Discovered direction of GAN on MNIST\relax }}{22}{figure.caption.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Detected direction in ScrabbleGAN that effect the width of the writing\relax }}{23}{figure.caption.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Detected direction in ScrabbleGAN that effect the cursivity of the writing\relax }}{23}{figure.caption.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.11}{\ignorespaces ScrabbleGAN attention maps\relax }}{24}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

@@ -1,0 +1,28 @@
+I will split the discussion of the results to two parts - the qualitative results of the explainability methods (as explored on the MNIST base data set), and the results on the ScrabbleGAN use-case.
+
+
+\subsection{The benefits of explainability}
+On the MNIST dataset, the methods seems to perform well and extracted some meaningful results.
+
+Both InfoGAN and the direction discovery algorithms seems to produce meaningful latent space explorations. It reveals the power of the generative model on this simple dataset - the range of different characteristics is revealed by these explorations. 
+
+The attention maps also seems to be useful - it shows that the model captured the basics features of the output space, by showing that each pixel is 'aware' to all of the feature space and not just to its own area. 
+
+
+\subsection{What is still missing}
+The implementation on ScrabbleGAN was partially successful - The latent space explorations seems to generate some interesting directions.
+
+The results of the latent exploration could be improved with a better generative models - with more variation of style. ScrabbleGAN has a training trick involves gradient balancing that is supposed to increase the style variance, but I left this part out of the scope of this project.
+It will be interesting to see the results this exploration with a stronger generative model.
+
+
+The attention maps doest seems to work on ScrabbleGAN - the maps doesn't look like anything that resemble any realistic process of writing. 
+Beside looking for bugs in the implementation (the model seems to perform well), maybe some alternative visualizations is needed. This reminds the optimization tasks of kernel visualization in classical CNN, as in \cite{15}. 
+
+
+
+
+\section{Future Work}
+Unfortunatly, I wasn't able to complete the implementation InfoGAN combined with ScrabbleGAN or CGAN. This is the obvious thing to explore - what kind of "classes" will emerge from the model, while we generate conditional samples (we condition the content, so I would expect kind of raw 'style' groups)
+
+Another interesting continuation of this work is to Implement this methods on online writing methods. What adjustment in the architectures of the methods should be considered to make the methods feasible to generate meaningful insights?

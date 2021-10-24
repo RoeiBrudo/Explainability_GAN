@@ -1,0 +1,27 @@
+Explainable artificial intelligence (xAI) is a relatively new field exploring methods that allow humans to get a better understanding of the results of an AI system. 
+
+There are two main approaches to achieve this kind of transparency. First, Building models with an interpretability aspect within their structure. Second, Post-Hoc methods that are agnostic to the model, and explains it by exploring its behavior.
+
+This work is an implementation of these ideas for Generative Adversarial Networks architecture, trained to generate handwritten text.
+I will try to explore a few aspects of these machines - what are the different styles that it can produce? What are the characteristics of the style that can be disentangled?
+
+
+\section{Aims and Objectives}
+
+The main goal of this work is to review a few of the latest works in the GAN explainability field. They will be implemented on a ScrabbleGAN model - a method that generates handwritten text with variate lengths and styles.
+
+The methods that are implemented in this project are:
+
+\begin{enumerate}
+	\item Post-Hoc methods - Unsupervised Discovery of Interpretable Directions in the GAN Latent Space.
+	
+	\item GAN structures that gain explainability - GAN with attention Blocks and InfoGAN.
+	
+\end{enumerate}
+
+These tools will allow to generate handwritten texts with the following insights:
+
+\begin{enumerate}
+	\item Latent space exploration
+	\item Explore the attention that is given to features while generating each pixel.
+\end{enumerate}
